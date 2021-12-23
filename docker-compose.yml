@@ -12,6 +12,10 @@ services:
       - prometheus:/prometheus
     command:
       - '--config.file=/etc/prometheus/prometheus.yml'
+    ports:
+      - "9090:9090"
+    expose:
+      - 9090
     depends_on:
       - mon_node-exporter
       - mon_cadvisor
@@ -80,11 +84,13 @@ services:
     image: grafana/loki:latest
     container_name: mon_loki
     ports:
-      - 127.0.0.1:3100:3100
+      - "3100:3100"
     command: -config.file=/etc/loki/local-config.yaml
     volumes:
       - ./loki/config.yaml:/etc/loki/config.yaml
       - loki:/data/loki
+    expose:
+      - 3100
     networks:
       - monitoring
 
