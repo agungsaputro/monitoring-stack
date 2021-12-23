@@ -17,4 +17,4 @@ scrape_configs:
 
   - job_name: 'caddy'
     static_configs:
-      - targets: [ 'mon_caddy:3210' ]
+      - targets: [ 'mon_loki:3100' ]
