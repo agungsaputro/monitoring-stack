@@ -2,12 +2,12 @@
 
 ### Monitoring Stack terdiri dari :
 
-- :heavy_check_mark: Grafana
-- :heavy_check_mark: Prometheus
-- :heavy_check_mark: Loki
-- :heavy_check_mark: Promtail
-- :heavy_check_mark: cAdvisor
-- :heavy_check_mark: Node Exporter
+- [:heavy_check_mark:] Grafana
+- [:heavy_check_mark:] Prometheus
+- [:heavy_check_mark:] Loki
+- [:heavy_check_mark:] Promtail
+- [:heavy_check_mark:] cAdvisor
+- [:heavy_check_mark:] Node Exporter
 - [ ] Alert Manager
 
 
