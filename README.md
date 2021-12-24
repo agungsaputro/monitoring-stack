@@ -2,15 +2,13 @@
 
 ### Monitoring Stack terdiri dari :
 
-- [ ] Mercury
-- [ ] Venus
-- [ ] Earth (Orbit/Moon)
-- [ ] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [x] Grafana
+- [x] Prometheus
+- [x] Loki
+- [x] Promtail
+- [x] cAdvisor
+- [x] Node Exporter
+- [ ] Alert Manager
 
 
 ### Node Exporter
