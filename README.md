@@ -16,3 +16,4 @@ import ID 11600 for show cAdvisor on grafana
 ![Node Expoerter](/picture/cadvisor_2.png)
 
 ### Loki
+![Node Expoerter](/picture/loki.png)
