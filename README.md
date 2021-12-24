@@ -2,7 +2,7 @@
 
 ### Monitoring Stack terdiri dari :
 
-- [x] Grafana
+:heavy_check_mark: Grafana
 - [x] Prometheus
 - [x] Loki
 - [x] Promtail
