@@ -1,7 +1,17 @@
 # Monitoring Stack 
 
+### Monitoring Stack terdiri dari :
 
-Development
+- [ ] Mercury
+- [ ] Venus
+- [ ] Earth (Orbit/Moon)
+- [ ] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
+
 
 ### Node Exporter
 
