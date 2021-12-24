@@ -28,6 +28,10 @@ services:
     image: prom/node-exporter:latest
     container_name: mon_node-exporter
     restart: always
+    ports:
+      - "9100:9100"
+    expose:
+      - 9100
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
@@ -47,6 +51,10 @@ services:
     image: google/cadvisor:latest
     container_name: mon_cadvisor
     restart: always
+    ports:
+      - "8080:8080"
+    expose:
+      - 8080
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
